@@ -22,7 +22,7 @@ public class StudentsController {
     @PostMapping("/student")
     public Student createStudent(@RequestBody Student student)
     {
-        return students;
+        return Student;
     }
 
 }
