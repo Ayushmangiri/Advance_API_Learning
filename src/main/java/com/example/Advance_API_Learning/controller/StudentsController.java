@@ -24,6 +24,6 @@ public class StudentsController {
     {
         return Student;
     }
-    @PutMapping
+    @PutMapping("/student")
 
 }
